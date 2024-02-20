@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Perfil from "./componentes/Perfil";
-import Contador from "./componentes/Contador";
 
-function App() {
+function App(props) {
   console.log(logo, useState);
   const perfiles = [
     {
@@ -50,7 +49,6 @@ function App() {
             twitter={perfil.twitter}
           />
         ))}
-        <Contador />
       </div>
     </>
   );

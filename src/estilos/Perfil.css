@@ -3,11 +3,12 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .contenedor-perfil {
-  width: 1000px;
-  height: 300px;
+  width: 1140px;
+  height: 450px;
   display: flex;
   background-color: papayawhip;
   margin: 10px 10px 30px;

@@ -3,6 +3,7 @@ import "../estilos/Perfil.css";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
+import Contador from "./Contador";
 
 function perfil(props) {
   return (
@@ -23,24 +24,15 @@ function perfil(props) {
       </div>
       {/*Botones para seguir en redes sociales*/}
       <div className="contendor-botones">
-        <button
-          className="button"
-          onClick={() => window.open(props.linkedin, "_blank")}
-        >
-          <FaLinkedin />
-        </button>
-        <button
-          className="button"
-          onClick={() => window.open(props.youtube, "_blank")}
-        >
-          <FaYoutube />
-        </button>
-        <button
-          className="button"
-          onClick={() => window.open(props.twitter, "_blank")}
-        >
-          <BsTwitterX />
-        </button>
+        <Contador className="button">
+          <FaLinkedin onClick={() => window.open(props.linkedin, "_blank")} />
+        </Contador>
+        <Contador className="button">
+          <FaYoutube onClick={() => window.open(props.youtube, "_blank")} />
+        </Contador>
+        <Contador className="button">
+          <BsTwitterX onClick={() => window.open(props.youtube, "_blank")} />
+        </Contador>
       </div>
     </div>
   );

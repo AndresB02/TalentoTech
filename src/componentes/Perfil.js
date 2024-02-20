@@ -25,13 +25,22 @@ function perfil(props) {
       {/*Botones para seguir en redes sociales*/}
       <div className="contendor-botones">
         <Contador className="button">
-          <FaLinkedin onClick={() => window.open(props.linkedin, "_blank")} />
+          <FaLinkedin
+            className="icon"
+            onClick={() => window.open(props.linkedin, "_blank")}
+          />
         </Contador>
         <Contador className="button">
-          <FaYoutube onClick={() => window.open(props.youtube, "_blank")} />
+          <FaYoutube
+            className="icon"
+            onClick={() => window.open(props.youtube, "_blank")}
+          />
         </Contador>
         <Contador className="button">
-          <BsTwitterX onClick={() => window.open(props.youtube, "_blank")} />
+          <BsTwitterX
+            className="icon"
+            onClick={() => window.open(props.youtube, "_blank")}
+          />
         </Contador>
       </div>
     </div>

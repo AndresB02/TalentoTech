@@ -5,20 +5,33 @@
   flex-direction: column;
 }
 
+.titulo {
+  color: white;
+  font-size: 3.2rem;
+  text-shadow: 2px 2px 2px black;
+}
+
 .contenedor-perfil {
   width: 1140px;
   height: 450px;
   display: flex;
-  background-color: papayawhip;
   margin: 10px 10px 30px;
+  padding: 15px 15px 15px;
+  gap: 20px;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  background-color: whitesmoke;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 5px 5px 15px 2px black;
 }
 
 .imagen-perfil {
   height: 100%;
   width: auto;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .contenedor-texto-perfil {
@@ -47,7 +60,7 @@
 }
 
 .button {
-  background-color: green; /* Green */
+  background-color: blue; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -57,5 +70,37 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  box-sizing: border-box;
+  box-shadow: 1px 2px 1px black;
+}
+
+/****************************/
+
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
 }

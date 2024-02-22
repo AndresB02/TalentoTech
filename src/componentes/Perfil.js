@@ -26,18 +26,21 @@ function perfil(props) {
       <div className="contendor-botones">
         <Contador className="button">
           <FaLinkedin
+            style={{ fontSize: "35px" }}
             className="icon"
             onClick={() => window.open(props.linkedin, "_blank")}
           />
         </Contador>
         <Contador className="button">
           <FaYoutube
+            style={{ fontSize: "35px" }}
             className="icon"
             onClick={() => window.open(props.youtube, "_blank")}
           />
         </Contador>
         <Contador className="button">
           <BsTwitterX
+            style={{ fontSize: "35px" }}
             className="icon"
             onClick={() => window.open(props.youtube, "_blank")}
           />

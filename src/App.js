@@ -8,40 +8,39 @@ function App(props) {
   const perfiles = [
     {
       nombre: "Brais",
-      pais: "España",
-      cargo: "Ingeniero de Software",
-      empresa: "independiente",
+      pais: "Spain",
+      cargo: "Software Engineer",
+      empresa: "MoureDev",
       imagen: "brais",
       resena:
-        "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially ",
+        "My name is Brais Moure, I am an independent IT entrepreneur and technology lover. Since 2010 I have worked in large companies in the sector such as Inditex, Indra or Altia. In 2014 I decided to create my own software development company, MoureDev, given my deep interest in new trends in the sector.",
       linkedin: "https://www.linkedin.com/in/braismoure/",
       youtube: "https://www.youtube.com/@mouredev",
-      twitter: "https://twitter.com/MoureDev",
     },
     {
-      nombre: "Facundo",
-      pais: "Argentina",
-      cargo: "Desarrollador",
-      empresa: "Sombreros de paja",
-      imagen: "facundo",
+      nombre: "Nicolás Schürmann Lindemann",
+      pais: "New Zealand",
+      cargo: "Senior Software Developer",
+      empresa: "HolaMundo",
+      imagen: "nicolas",
       resena:
-        "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially ",
+        "I am a senior software developer, instructor of technologies for web and mobile development. Throughout my life I have managed to build a lot of software with tools and forms that have given resounding success and others a terrible failure. So I focus on delivering knowledge that can build world-class software that is easy to scale.",
       linkedin:
-        "https://www.linkedin.com/in/facundo-torres-b17871247/?originalSubdomain=ar",
-      youtube: "",
-      twitter: "",
+        "https://www.linkedin.com/in/nicolasschurmann/?originalSubdomain=nz",
+      youtube: "https://www.youtube.com/@HolaMundoDev",
+      twitter: "https://twitter.com/_nasch_?lang=es",
     },
     {
       nombre: "MiduDev",
-      pais: "España",
-      cargo: "Desarrollador",
+      pais: "Spain",
+      cargo: "Software Engineer",
       empresa: "MiduDev",
       imagen: "midu",
       resena:
-        "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially ",
+        "I'm a Software Engineer, Web Programmer and Programmer. I am recognized as a GitHub Star for my contribution to the web development community. I usually stream learning and developing things with Javascript, React, Node.js, CSS and many more things.",
       linkedin: "https://www.linkedin.com/in/midudev/?originalSubdomain=es",
       youtube: "https://www.youtube.com/@midudev",
-      twitter: "https://twitter.com/midudev",
+      twitter: "https://twitter.com/MoureDev",
     },
   ];
   return (

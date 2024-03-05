@@ -15,10 +15,10 @@ function perfil(props) {
       />
       <div className="contenedor-texto-perfil">
         <h1 className="nombre-pais">
-          {props.nombre} en {props.pais}
+          {props.nombre} in {props.pais}
         </h1>
         <p className="cargo-perfil">
-          {props.cargo} en {props.empresa}
+          {props.cargo} in {props.empresa}
         </p>
         <p className="resena-perfil">{props.resena}</p>
       </div>
